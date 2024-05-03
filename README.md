@@ -64,6 +64,8 @@ For example, in Section 7, I have calculated the ITE for one of the most popular
 
 ## 6. Feature Importance
 
+![feature_importance](https://github.com/reojackson31/soccer-analytics-causal-inference/assets/148725712/ef1c837f-f79c-4fee-83eb-85990025d27b)
+
 Feature importance scores are calculated using the S-learner with LightGBMRegressor. Analyzing the feature importance can provide valuable insights into what factors most significantly influence the average treatment effect (ATE) on a player's market value, especially in the context of being in the final year of their contract. By looking at the results, we get the following insights:
 
 1. **Overall Player Rating**: The 'overall' rating has the highest importance score (0.695670), indicating it is the most influential factor in determining a player's market value when approaching the end of their contract.
@@ -77,6 +79,8 @@ Feature importance scores are calculated using the S-learner with LightGBMRegres
 5. **Playing country**: An interesting observation from the model is that players playing for clubs in 'England' (0.020333) appear to have a higher influence, possibly because the English Premier League is the most popular league in the world, offering high visibility and marketing potential to players leading to higher market value.
 
 ## 7. SHAP Values
+
+![shap_values](https://github.com/reojackson31/soccer-analytics-causal-inference/assets/148725712/0848e095-e9f2-48ee-a406-ba4dd5e19468)
 
 From the SHAP plot, we can get the following insights:
 
